@@ -1,0 +1,46 @@
+
+  body{
+      background-color: grey;
+  }
+
+  h1 {
+   color: white;
+    text-align: center;
+  }
+  
+  img {
+    display: inline-block;
+    width: 200px;
+    padding: 4px;
+    height: 180px;
+    margin-top: 2px;
+  }
+  
+  #container {
+    padding-left: 32.5%;
+    border: 2px solid black;
+    width: 100%;
+    margin: 0 auto;
+    height: 20%px;
+  }
+
+  #button {
+    margin-left: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+
+  ul {
+      margin-left: 25%;
+      width: 50%;
+      text-align: center;
+    list-style: square inside ;
+  }
+
+  p{
+text-align: center;
+font-size: large;
+color: white;
+  }
+
