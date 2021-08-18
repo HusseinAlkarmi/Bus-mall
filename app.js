@@ -2,9 +2,9 @@
 
 let attemptEl = document.getElementById('attempts');
 let container = document.getElementById('');
-let firstImg = document.getElementById('fImg');
-let secondImg = document.getElementById('sImg');
-let thirdImg = document.getElementById('thImg');
+let fImg = document.getElementById('fImg');
+let sImg = document.getElementById('sImg');
+let thImg = document.getElementById('thImg');
 let result = document.getElementById('results');
 
 let arrImg = ['bag.jpg', 'banana.jpg', 'breakfast.jpg', 'bathroom.jpg', 'boots.jpg', 'bubblegum.jpg', 'chair.jpg', 'cthulhu.jpg', 'dog-duck.jpg', 'dragon.jpg', 'pen.jpg', 'pet-sweep.jpg', 'scissors.jpg', 'shark.jpg', 'sweep.png', 'tauntaun.jpg ', 'unicorn.jpg', 'water-can.jpg ', 'wine-glass.jpg'];
@@ -49,9 +49,9 @@ function renderImage() {
         thirdIndex = gitRandomImage();
     }
 
-    firstImg.setAttribute('src', saveImages[firstIndex].img)
-    secondImg.setAttribute('src', saveImages[secondIndex].img);
-    thirdImg.setAttribute('src', saveImages[thirdIndex].img);
+    fImg.setAttribute('src', saveImages[firstIndex].img)
+    sImg.setAttribute('src', saveImages[secondIndex].img);
+    thImg.setAttribute('src', saveImages[thirdIndex].img);
 
     saveImages[firstIndex].views++;
     saveImages[secondIndex].views++;
@@ -60,9 +60,9 @@ function renderImage() {
 }
 renderImage();
 
-firstImg.addEventListener('click', clickHandler);
-secondImg.addEventListener('click', clickHandler);
-thirdImg.addEventListener('click', clickHandler);
+fImg.addEventListener('click', clickHandler);
+sImg.addEventListener('click', clickHandler);
+thImg.addEventListener('click', clickHandler);
 
 function clickHandler(event) {
 
