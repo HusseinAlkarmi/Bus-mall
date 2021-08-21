@@ -44,3 +44,18 @@ font-size: large;
 color: white;
   }
 
+  canvas{
+    width: 150px;
+    height: 150px;
+    margin: 80px;
+  }
+
+  div{
+    padding-left: 30%;
+  }
+
+  button{
+    margin-left: 32%;
+    font-size: 20px;
+  }
+
