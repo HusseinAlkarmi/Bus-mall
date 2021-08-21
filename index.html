@@ -1,47 +1,36 @@
 <!DOCTYPE html>
+ 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title>Bus MallL</title>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+<link rel="stylesheet" href="style.css" />
+<link rel = "icon"
+type = "image/png"
+href = "https://static.thenounproject.com/png/2034632-200.png"/>
+ 
+<title>Bus Mall</title>
 </head>
-
-    <body>
-
-      <header>
-  
-          <h1>choose image game</h1>
-  
-      </header>
-  
-      <main>
-  
-          <p>please vote 25 times then see the result:</p>
-  
-          <div id="container">
-  
-              <img id="fImg" src="" >
-  
-              <img id="sImg" src="">
-  
-              <img id="thImg" src="">
-  
-          </div>
-  <br>
-          <button id="button">View Results</button>
-  
-          <ul id="results"> </ul>
-  
-      </main>
-
-      <footer>
-
-    </footer>
-
-    <script src="app.js"></script>
-
+<body>
+<header>
+<h1>Bus Mall</h1>
+</header>
+<main>
+<p>Welcome to our page you can vote to your favorite product 25 times.</p>
+<br /><hr>
+<span id="attempts"></span>
+<div id="image-container">
+<img id="leftImg" src="" alt="" />
+<img id="rightImg" src="" alt="" />
+<img id="middleImg" src="" alt="" />
+</div>
+<button id="btn">Results</button>
+ 
+<ul id="results"></ul>
+</main>
+<footer><canvas id="myChart" width="200" height="200"></canvas></footer>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="app.js"></script>
 </body>
-
 </html>
